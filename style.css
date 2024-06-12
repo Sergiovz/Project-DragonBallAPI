@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background: linear-gradient(90deg, #f8ba0f, #f1ee10, #f8ba0f);   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    height: 8.5rem;
+    background-image: url("./dragon-ball.jpg");
+    background-repeat: round;
+}
+
+h1 {
+    font-size: 5rem;
+    text-shadow: 0 0 15px #2b2821;
+    color: #ff432a;
+    animation: title 2s infinite;
+}
+
+@keyframes title {
+    50% {
+        text-shadow: 0 0 15px #110302;
+        color: #ffc525;
+    }
+}
+
+hr {
+    width: 90%;
+    margin: 1rem;
+}
+
+main {
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finder-character {
+    width: 30rem;
+    height: 1rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: #1c272e;
+    padding: 1rem;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-cards {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-character {
+    width: 12.5rem;
+    height: 25rem;
+    background-color: #f8ba0f;
+    border: groove 5px #ffc525;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-character > img {
+    width: 100%;
+    height: 80%;
+}
+
+.card-character > .description-card {
+    width: 100%;
+    height: 20%;
+    background: #f1ed10b7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-card > h2 {
+    font-size: 18px;
+    text-align: center;
+    color: #ff432a;
+    text-shadow: 0 0 15px #ffffff;
+}
+
+.description-card > p {
+    font-size: 16px;
+    text-align: center;
+    color: #1c272e;
+}
+
+footer {
+    width: 100%;
+    height: 3rem;
+    background-color: #f8ba0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    font-size: 17px;
+    color: #ff0000;
+}
