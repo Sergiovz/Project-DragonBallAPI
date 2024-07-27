@@ -16,7 +16,7 @@ body {
 header {
     width: 100%;
     height: 8.5rem;
-    background-image: url("./dragon-ball.jpg");
+    background-image: url("./img/dragon-ball.jpg");
     background-repeat: round;
 }
 
@@ -52,6 +52,7 @@ main {
     width: 30rem;
     height: 1rem;
     font-size: 1rem;
+    text-transform: capitalize;
     border-radius: 20px;
     background-color: #1c272e;
     padding: 1rem;
