@@ -23,9 +23,11 @@ const createCards = ( character ) => {
     containerDescription.classList.add('description-card');
 
     const nameCharacter = document.createElement('h2');
+    nameCharacter.classList.add('card__text');
     nameCharacter.textContent = character.name;
     
     const genderCharacter = document.createElement('p');
+    genderCharacter.classList.add('card__text');
     genderCharacter.textContent = `Gender: ${character.gender}`
     
     containerDescription.appendChild(nameCharacter);
